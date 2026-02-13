@@ -1,0 +1,61 @@
+# ============================================================
+# Core Automation Dependencies
+# ============================================================
+
+selenium==4.16.0
+# Main browser automation library (UI automation engine)
+
+webdriver-manager==4.0.1
+# Automatically downloads and manages ChromeDriver
+# (Removes need for hardcoded driver path)
+
+# ============================================================
+# Optional Utilities (Recommended for Production Framework)
+# ============================================================
+
+pytest==7.4.4
+# Alternative test runner (more powerful than unittest)
+
+pytest-html==4.1.1
+# Generates HTML test execution reports
+
+pytest-xdist==3.5.0
+# Enables parallel test execution
+
+allure-pytest==2.13.2
+# Advanced reporting integration (Allure Reports)
+
+python-dotenv==1.0.0
+# Load environment variables (for credentials & config)
+
+loguru==0.7.2
+# Advanced logging framework
+
+requests==2.31.0
+# Useful for API validation alongside UI tests
+
+# ============================================================
+# Code Quality & Formatting (Optional)
+# ============================================================
+
+flake8==6.1.0
+# Python linting tool (code quality check)
+
+black==23.12.1
+# Automatic code formatter
+
+# ============================================================
+# CI/CD Integration Support (Optional)
+# ============================================================
+
+pytest-cov==4.1.0
+# Test coverage reporting (if needed)
+
+# ============================================================
+# Notes:
+# ------------------------------------------------------------
+# 1. unittest is built into Python → No need to install
+# 2. time module is built into Python → No need to install
+# 3. For minimal setup, only selenium is required
+# 4. For production framework, use all recommended packages
+# ============================================================
